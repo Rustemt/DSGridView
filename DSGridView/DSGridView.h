@@ -39,22 +39,18 @@ const DSTileMargin DSTileMarginZero;
 
 
 @protocol DSGridViewDataSource <NSObject>
-
 - (NSInteger)numberOfSectionsInGridView:(DSGridView *)gridView;
 - (NSInteger)gridView:(DSGridView *)gridView numberOfTilesInSection:(NSInteger)section;
 - (DSGridViewTile *)gridView:(DSGridView *)gridView viewForGridTileAtIndexPath:(NSIndexPath *)indexPath;
 
 @optional
 - (NSString *)gridView:(DSGridView *)gridView titleForHeaderInSection:(NSInteger)section;
-
 @end
 
 
 
-
-
+// COMING SOON!
+// Not currently implemented. Use UIGestureRecognizers in your dataSource or tile subclasses instead. -JBD
 @protocol DSGridViewDelegate <NSObject>
-
 - (void)gridView:(DSGridView *)gridView didSelectTileAtIndexPath:(NSIndexPath *)indexPath;
-
 @end

@@ -21,11 +21,18 @@
 	
 	DSGridView *gridView = [[DSGridView alloc] initWithFrame:self.view.bounds];
 	gridView.dataSource = self;
-	gridView.tilesPerRow = 4;
-	gridView.rowHeight = 160;
 	gridView.tileMargin = DSTileMarginMake(10, 10);
 	gridView.rowSeparatorStyle = UITableViewCellSeparatorStyleNone;
 	gridView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+	
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+		gridView.tilesPerRow = 4;
+		gridView.rowHeight = 160;
+	} else {
+		gridView.tilesPerRow = 3;
+		gridView.rowHeight = 100;
+	}
+	
 	[self.view addSubview:gridView];
 }
 

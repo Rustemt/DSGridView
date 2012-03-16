@@ -4,20 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DSGridView.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>75243C1D1512D5A400D8EF79</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>75243C4C1512E07300D8EF79</key>
+		<key>75243C691512E4D600D8EF79</key>
 		<dict>
 			<key>primary</key>
 			<true/>

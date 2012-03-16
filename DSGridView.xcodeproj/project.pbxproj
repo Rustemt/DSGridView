@@ -7,33 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75243C231512D5A400D8EF79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C221512D5A400D8EF79 /* UIKit.framework */; };
-		75243C251512D5A400D8EF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C241512D5A400D8EF79 /* Foundation.framework */; };
-		75243C271512D5A400D8EF79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C261512D5A400D8EF79 /* CoreGraphics.framework */; };
-		75243C2D1512D5A400D8EF79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75243C2B1512D5A400D8EF79 /* InfoPlist.strings */; };
-		75243C2F1512D5A400D8EF79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C2E1512D5A400D8EF79 /* main.m */; };
-		75243C331512D5A400D8EF79 /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */; };
-		75243C361512D5A400D8EF79 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C351512D5A400D8EF79 /* ExampleViewController.m */; };
-		75243C471512D66E00D8EF79 /* DSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C441512D66E00D8EF79 /* DSGridView.m */; };
-		75243C481512D66E00D8EF79 /* DSGridViewTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C461512D66E00D8EF79 /* DSGridViewTile.m */; };
 		75243C4E1512E07300D8EF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C241512D5A400D8EF79 /* Foundation.framework */; };
 		75243C591512E0D600D8EF79 /* DSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C441512D66E00D8EF79 /* DSGridView.m */; };
 		75243C5B1512E0D600D8EF79 /* DSGridViewTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C461512D66E00D8EF79 /* DSGridViewTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75243C1E1512D5A400D8EF79 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75243C221512D5A400D8EF79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75243C241512D5A400D8EF79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75243C261512D5A400D8EF79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75243C2A1512D5A400D8EF79 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
-		75243C2C1512D5A400D8EF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		75243C2E1512D5A400D8EF79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75243C301512D5A400D8EF79 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
-		75243C311512D5A400D8EF79 /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
-		75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
-		75243C341512D5A400D8EF79 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
-		75243C351512D5A400D8EF79 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		75243C431512D66E00D8EF79 /* DSGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGridView.h; sourceTree = "<group>"; };
 		75243C441512D66E00D8EF79 /* DSGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGridView.m; sourceTree = "<group>"; };
 		75243C451512D66E00D8EF79 /* DSGridViewTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGridViewTile.h; sourceTree = "<group>"; };
@@ -42,16 +24,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75243C1B1512D5A400D8EF79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75243C231512D5A400D8EF79 /* UIKit.framework in Frameworks */,
-				75243C251512D5A400D8EF79 /* Foundation.framework in Frameworks */,
-				75243C271512D5A400D8EF79 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75243C4A1512E07300D8EF79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				75243C421512D66E00D8EF79 /* DSGridView */,
-				75243C281512D5A400D8EF79 /* Example */,
 				75243C211512D5A400D8EF79 /* Frameworks */,
 				75243C1F1512D5A400D8EF79 /* Products */,
 			);
@@ -76,7 +47,6 @@
 		75243C1F1512D5A400D8EF79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75243C1E1512D5A400D8EF79 /* Example.app */,
 				75243C4D1512E07300D8EF79 /* libDSGridView.a */,
 			);
 			name = Products;
@@ -90,29 +60,6 @@
 				75243C261512D5A400D8EF79 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		75243C281512D5A400D8EF79 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				75243C311512D5A400D8EF79 /* ExampleAppDelegate.h */,
-				75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */,
-				75243C341512D5A400D8EF79 /* ExampleViewController.h */,
-				75243C351512D5A400D8EF79 /* ExampleViewController.m */,
-				75243C291512D5A400D8EF79 /* Supporting Files */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		75243C291512D5A400D8EF79 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				75243C2A1512D5A400D8EF79 /* Example-Info.plist */,
-				75243C2B1512D5A400D8EF79 /* InfoPlist.strings */,
-				75243C2E1512D5A400D8EF79 /* main.m */,
-				75243C301512D5A400D8EF79 /* Example-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		75243C421512D66E00D8EF79 /* DSGridView */ = {
@@ -139,23 +86,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		75243C1D1512D5A400D8EF79 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				75243C1A1512D5A400D8EF79 /* Sources */,
-				75243C1B1512D5A400D8EF79 /* Frameworks */,
-				75243C1C1512D5A400D8EF79 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Example;
-			productName = DSGridView;
-			productReference = 75243C1E1512D5A400D8EF79 /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		75243C4C1512E07300D8EF79 /* DSGridView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75243C551512E07400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */;
@@ -195,36 +125,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75243C1D1512D5A400D8EF79 /* Example */,
 				75243C4C1512E07300D8EF79 /* DSGridView */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		75243C1C1512D5A400D8EF79 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75243C2D1512D5A400D8EF79 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		75243C1A1512D5A400D8EF79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75243C2F1512D5A400D8EF79 /* main.m in Sources */,
-				75243C331512D5A400D8EF79 /* ExampleAppDelegate.m in Sources */,
-				75243C361512D5A400D8EF79 /* ExampleViewController.m in Sources */,
-				75243C471512D66E00D8EF79 /* DSGridView.m in Sources */,
-				75243C481512D66E00D8EF79 /* DSGridViewTile.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75243C491512E07300D8EF79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,17 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		75243C2B1512D5A400D8EF79 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75243C2C1512D5A400D8EF79 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		75243C3D1512D5A400D8EF79 /* Debug */ = {
@@ -295,28 +190,6 @@
 			};
 			name = Release;
 		};
-		75243C401512D5A400D8EF79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				INFOPLIST_FILE = "Example/Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		75243C411512D5A400D8EF79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				INFOPLIST_FILE = "Example/Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		75243C561512E07400D8EF79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,14 +226,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75243C401512D5A400D8EF79 /* Debug */,
-				75243C411512D5A400D8EF79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		75243C551512E07400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -368,6 +233,7 @@
 				75243C571512E07400D8EF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
