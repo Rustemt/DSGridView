@@ -1,5 +1,5 @@
 //
-//  DSAppDelegate.h
+//  ExampleAppDelegate.h
 //  DSGridView
 //
 //  Created by J. Bradford Dillon on 3/15/12.
@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class DSViewController;
+@class ExampleViewController;
 
-@interface DSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ExampleAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) DSViewController *viewController;
+@property (strong, nonatomic) ExampleViewController *viewController;
 
 @end

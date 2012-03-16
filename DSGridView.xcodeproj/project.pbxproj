@@ -12,27 +12,33 @@
 		75243C271512D5A400D8EF79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C261512D5A400D8EF79 /* CoreGraphics.framework */; };
 		75243C2D1512D5A400D8EF79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75243C2B1512D5A400D8EF79 /* InfoPlist.strings */; };
 		75243C2F1512D5A400D8EF79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C2E1512D5A400D8EF79 /* main.m */; };
-		75243C331512D5A400D8EF79 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C321512D5A400D8EF79 /* DSAppDelegate.m */; };
-		75243C361512D5A400D8EF79 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C351512D5A400D8EF79 /* DSViewController.m */; };
-		75243C391512D5A400D8EF79 /* DSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75243C371512D5A400D8EF79 /* DSViewController_iPhone.xib */; };
-		75243C3C1512D5A400D8EF79 /* DSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75243C3A1512D5A400D8EF79 /* DSViewController_iPad.xib */; };
+		75243C331512D5A400D8EF79 /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */; };
+		75243C361512D5A400D8EF79 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C351512D5A400D8EF79 /* ExampleViewController.m */; };
+		75243C471512D66E00D8EF79 /* DSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C441512D66E00D8EF79 /* DSGridView.m */; };
+		75243C481512D66E00D8EF79 /* DSGridViewTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C461512D66E00D8EF79 /* DSGridViewTile.m */; };
+		75243C4E1512E07300D8EF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75243C241512D5A400D8EF79 /* Foundation.framework */; };
+		75243C591512E0D600D8EF79 /* DSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C441512D66E00D8EF79 /* DSGridView.m */; };
+		75243C5B1512E0D600D8EF79 /* DSGridViewTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75243C461512D66E00D8EF79 /* DSGridViewTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75243C1E1512D5A400D8EF79 /* DSGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75243C1E1512D5A400D8EF79 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75243C221512D5A400D8EF79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75243C241512D5A400D8EF79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75243C261512D5A400D8EF79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75243C2A1512D5A400D8EF79 /* DSGridView-Info.plist */ = {isa = PBXFileReference; path = "DSGridView-Info.plist"; sourceTree = "<group>"; };
+		75243C2A1512D5A400D8EF79 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		75243C2C1512D5A400D8EF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75243C2E1512D5A400D8EF79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75243C301512D5A400D8EF79 /* DSGridView-Prefix.pch */ = {isa = PBXFileReference; path = "DSGridView-Prefix.pch"; sourceTree = "<group>"; };
-		75243C311512D5A400D8EF79 /* DSAppDelegate.h */ = {isa = PBXFileReference; path = DSAppDelegate.h; sourceTree = "<group>"; };
-		75243C321512D5A400D8EF79 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
-		75243C341512D5A400D8EF79 /* DSViewController.h */ = {isa = PBXFileReference; path = DSViewController.h; sourceTree = "<group>"; };
-		75243C351512D5A400D8EF79 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
-		75243C381512D5A400D8EF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController_iPhone.xib; sourceTree = "<group>"; };
-		75243C3B1512D5A400D8EF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController_iPad.xib; sourceTree = "<group>"; };
+		75243C301512D5A400D8EF79 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		75243C311512D5A400D8EF79 /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		75243C341512D5A400D8EF79 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		75243C351512D5A400D8EF79 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		75243C431512D66E00D8EF79 /* DSGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGridView.h; sourceTree = "<group>"; };
+		75243C441512D66E00D8EF79 /* DSGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGridView.m; sourceTree = "<group>"; };
+		75243C451512D66E00D8EF79 /* DSGridViewTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGridViewTile.h; sourceTree = "<group>"; };
+		75243C461512D66E00D8EF79 /* DSGridViewTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGridViewTile.m; sourceTree = "<group>"; };
+		75243C4D1512E07300D8EF79 /* libDSGridView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSGridView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,13 +52,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75243C4A1512E07300D8EF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75243C4E1512E07300D8EF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		75243C131512D5A400D8EF79 = {
 			isa = PBXGroup;
 			children = (
-				75243C281512D5A400D8EF79 /* DSGridView */,
+				75243C421512D66E00D8EF79 /* DSGridView */,
+				75243C281512D5A400D8EF79 /* Example */,
 				75243C211512D5A400D8EF79 /* Frameworks */,
 				75243C1F1512D5A400D8EF79 /* Products */,
 			);
@@ -61,7 +76,8 @@
 		75243C1F1512D5A400D8EF79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75243C1E1512D5A400D8EF79 /* DSGridView.app */,
+				75243C1E1512D5A400D8EF79 /* Example.app */,
+				75243C4D1512E07300D8EF79 /* libDSGridView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,37 +92,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		75243C281512D5A400D8EF79 /* DSGridView */ = {
+		75243C281512D5A400D8EF79 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				75243C311512D5A400D8EF79 /* DSAppDelegate.h */,
-				75243C321512D5A400D8EF79 /* DSAppDelegate.m */,
-				75243C341512D5A400D8EF79 /* DSViewController.h */,
-				75243C351512D5A400D8EF79 /* DSViewController.m */,
-				75243C371512D5A400D8EF79 /* DSViewController_iPhone.xib */,
-				75243C3A1512D5A400D8EF79 /* DSViewController_iPad.xib */,
+				75243C311512D5A400D8EF79 /* ExampleAppDelegate.h */,
+				75243C321512D5A400D8EF79 /* ExampleAppDelegate.m */,
+				75243C341512D5A400D8EF79 /* ExampleViewController.h */,
+				75243C351512D5A400D8EF79 /* ExampleViewController.m */,
 				75243C291512D5A400D8EF79 /* Supporting Files */,
 			);
-			path = DSGridView;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		75243C291512D5A400D8EF79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				75243C2A1512D5A400D8EF79 /* DSGridView-Info.plist */,
+				75243C2A1512D5A400D8EF79 /* Example-Info.plist */,
 				75243C2B1512D5A400D8EF79 /* InfoPlist.strings */,
 				75243C2E1512D5A400D8EF79 /* main.m */,
-				75243C301512D5A400D8EF79 /* DSGridView-Prefix.pch */,
+				75243C301512D5A400D8EF79 /* Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		75243C421512D66E00D8EF79 /* DSGridView */ = {
+			isa = PBXGroup;
+			children = (
+				75243C431512D66E00D8EF79 /* DSGridView.h */,
+				75243C441512D66E00D8EF79 /* DSGridView.m */,
+				75243C451512D66E00D8EF79 /* DSGridViewTile.h */,
+				75243C461512D66E00D8EF79 /* DSGridViewTile.m */,
+			);
+			path = DSGridView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		75243C4B1512E07300D8EF79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		75243C1D1512D5A400D8EF79 /* DSGridView */ = {
+		75243C1D1512D5A400D8EF79 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */;
+			buildConfigurationList = 75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				75243C1A1512D5A400D8EF79 /* Sources */,
 				75243C1B1512D5A400D8EF79 /* Frameworks */,
@@ -116,10 +151,27 @@
 			);
 			dependencies = (
 			);
+			name = Example;
+			productName = DSGridView;
+			productReference = 75243C1E1512D5A400D8EF79 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75243C4C1512E07300D8EF79 /* DSGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75243C551512E07400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */;
+			buildPhases = (
+				75243C491512E07300D8EF79 /* Sources */,
+				75243C4A1512E07300D8EF79 /* Frameworks */,
+				75243C4B1512E07300D8EF79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
 			name = DSGridView;
 			productName = DSGridView;
-			productReference = 75243C1E1512D5A400D8EF79 /* DSGridView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 75243C4D1512E07300D8EF79 /* libDSGridView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,7 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75243C1D1512D5A400D8EF79 /* DSGridView */,
+				75243C1D1512D5A400D8EF79 /* Example */,
+				75243C4C1512E07300D8EF79 /* DSGridView */,
 			);
 		};
 /* End PBXProject section */
@@ -154,8 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75243C2D1512D5A400D8EF79 /* InfoPlist.strings in Resources */,
-				75243C391512D5A400D8EF79 /* DSViewController_iPhone.xib in Resources */,
-				75243C3C1512D5A400D8EF79 /* DSViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +218,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				75243C2F1512D5A400D8EF79 /* main.m in Sources */,
-				75243C331512D5A400D8EF79 /* DSAppDelegate.m in Sources */,
-				75243C361512D5A400D8EF79 /* DSViewController.m in Sources */,
+				75243C331512D5A400D8EF79 /* ExampleAppDelegate.m in Sources */,
+				75243C361512D5A400D8EF79 /* ExampleViewController.m in Sources */,
+				75243C471512D66E00D8EF79 /* DSGridView.m in Sources */,
+				75243C481512D66E00D8EF79 /* DSGridViewTile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75243C491512E07300D8EF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75243C591512E0D600D8EF79 /* DSGridView.m in Sources */,
+				75243C5B1512E0D600D8EF79 /* DSGridViewTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,22 +243,6 @@
 				75243C2C1512D5A400D8EF79 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		75243C371512D5A400D8EF79 /* DSViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75243C381512D5A400D8EF79 /* en */,
-			);
-			name = DSViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		75243C3A1512D5A400D8EF79 /* DSViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75243C3B1512D5A400D8EF79 /* en */,
-			);
-			name = DSViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,8 +299,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DSGridView/DSGridView-Prefix.pch";
-				INFOPLIST_FILE = "DSGridView/DSGridView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,10 +310,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DSGridView/DSGridView-Prefix.pch";
-				INFOPLIST_FILE = "DSGridView/DSGridView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75243C561512E07400D8EF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DSGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGridView/DSGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75243C571512E07400D8EF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DSGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGridView/DSGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -283,11 +353,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */ = {
+		75243C3F1512D5A400D8EF79 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75243C401512D5A400D8EF79 /* Debug */,
 				75243C411512D5A400D8EF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75243C551512E07400D8EF79 /* Build configuration list for PBXNativeTarget "DSGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75243C561512E07400D8EF79 /* Debug */,
+				75243C571512E07400D8EF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

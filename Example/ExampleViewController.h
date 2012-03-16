@@ -1,5 +1,5 @@
 //
-//  DSViewController.h
+//  ExampleViewController.h
 //  DSGridView
 //
 //  Created by J. Bradford Dillon on 3/15/12.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DSGridView.h"
 
-@interface DSViewController : UIViewController
+@interface ExampleViewController : UIViewController <DSGridViewDataSource>
 
 @end
