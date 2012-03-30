@@ -1,6 +1,6 @@
 //
 //  DSGridViewTile.m
-//  TENNetworkIPhone
+//  DSGridView
 //
 //  Created by J. Bradford Dillon on 3/13/12.
 //  Copyright (c) 2012 Dreamsocket. All rights reserved.
